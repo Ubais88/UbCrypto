@@ -61,11 +61,13 @@ const ExchangeCard = ({ name, img, rank, url }) => (
   <a href={url} target={"blank"}>
     <VStack
       w={"52"}
-      shadow={"lg"}
+      // shadow={"lg"}
       p={"8"}
+      bgColor={"#e6e6e6"}
       borderRadius={"lg"}
       transition={"all 0.3s"}
-      m={"4"}
+      // m={"4"}
+      marginTop={"5"}
       css={{
         "&:hover": {
           transform: "scale(1.1)",
@@ -74,16 +76,16 @@ const ExchangeCard = ({ name, img, rank, url }) => (
     >
       <Image
         src={img}
-        w={"10"}
-        h={"10"}
+        w={"20"}
+        h={"20"}
         objectFit={"contain"}
         alt={"Exchange"}
       />
-      <Heading size={"md"} noOfLines={1}>
+      <Heading size={"md"}  noOfLines={1}>
         {rank}
       </Heading>
 
-      <Text noOfLines={1}>{name}</Text>
+      <Text noOfLines={1} fontWeight={"semibold"}>{name}</Text>
     </VStack>
   </a>
 );

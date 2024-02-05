@@ -11,7 +11,7 @@ const Footer = () => {
 
       <VStack w ={"full"} alignItems={["center","flex-start"]}>
       <Text fontWeight={"bold"}>About Us</Text>
-      <Text fontSize={"sm"} letterSpacing={"widest"} textAlign={["center","left"]}>UbCrypto is the world's most-referenced price-tracking website for crypto assets in the rapidly growing cryptocurrency space. Its mission is to make crypto discoverable and efficient globally by empowering retail users with unbiased, high quality and accurate information for drawing their own informed conclusions. </Text>
+      <Text fontSize={"sm"} letterSpacing={"widest"} textAlign={["center","left"]}>CryptoTracker is the world's most-referenced price-tracking website for crypto assets in the rapidly growing cryptocurrency space. Its mission is to make crypto discoverable and efficient globally by empowering retail users with unbiased, high quality and accurate information for drawing their own informed conclusions. </Text>
 
       </VStack>
       <VStack>

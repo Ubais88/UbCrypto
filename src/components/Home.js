@@ -24,7 +24,7 @@ const Home = () => {
       </motion.div>
 
       <Text fontSize={"6xl"} textAlign={"center"} fontWeight={"thin"} color={"whiteAlpha.700"} mt={"-20"}  >
-        UbCrypto
+        CryptoTracker
       </Text>
     </Box>
   )
